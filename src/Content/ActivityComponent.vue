@@ -135,6 +135,7 @@
 
 <style scoped>
 /* activity_section */
+
 .activities {
       position: relative;
       background-color: transparent;
@@ -148,7 +149,7 @@
       color: rgb(232, 229, 229);
       padding-bottom: 10px;
       border-bottom: 8px solid #457cc0;
-      z-index: 9999;
+      z-index: 9;
       
     }
 

@@ -1,7 +1,9 @@
 
   export function network(){
-
+	console.log("networlk function is run")
 	function imagesToRoundedImages(srcArray, callback) {
+		console.log("rounded funtion entered")
+		console.log("image src arr: ",srcArray)
 		const roundedImages = [];
 		let imagesLoaded = 0;
 	  
@@ -31,6 +33,7 @@
 	  
 			if (imagesLoaded === srcArray.length) {
 			  callback(roundedImages);
+			  console.log(roundedImages)
 			}
 		  };
 		}
@@ -43,11 +46,11 @@
 	  
 	  // Example usage:
 	  const imageContainer = document.getElementById("demo-basic")
-	  const imageSources = [];
+	  const imageSources = ['../img/design8.2e384a27.jpg','../img/design7.051d0492.jpg','../img/Design1.93988ceb.jpg','../img/design2.95a75a2b.jpg'];
 	  imagesToRoundedImages(imageSources, (roundedImages) => {
 		// roundedImages is an array of rounded image data URLs in PNG format
 		console.log(roundedImages);
-		let ImageArray = ['../img/teacher.jpg']
+		let ImageArray = []
 		
 		roundedImages.forEach(image => {
 			let Imageobject = 

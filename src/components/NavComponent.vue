@@ -78,6 +78,9 @@
 </script>
 
 <style scoped>
+    nav{
+        z-index: 999999;
+    }
     .nav-link {
         font-family: Cambria;
         color: #457cc0;

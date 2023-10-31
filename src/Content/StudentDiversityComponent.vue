@@ -13,7 +13,7 @@
           </h4>
           <img
             :src="require('@/assets/image/chart.png')"
-            :style="{zIndex: 9999,width:'auto',
+            :style="{zIndex: 9,width:'auto',
             height:'300px'}"
           />
         </div>
@@ -22,7 +22,7 @@
         >
           <img
             :src="require('@/assets/image/387327088_869003841393408_8937628880334378896_n.jpg')"
-            :style="{zIndex: 9999,width:'330px',
+            :style="{zIndex: 9,width:'330px',
             height:'auto'}"
             
             alt=""
